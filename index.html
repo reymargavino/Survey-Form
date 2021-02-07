@@ -1,0 +1,69 @@
+<DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<title>Survey Form</title>
+</head>
+<body>
+<div class="title"><h1><strong>Food Survey Form</strong></h1>
+<h4>Thank for Helping us improve the Food</h4>
+</div>
+<div class="box">
+<ul>
+	<form>
+	<li>Name</li>
+			<input type="Name" id="Fname" placeholder="Enter your name">
+	<li>Email</li>
+			<input type="Name" id="Email" placeholder="Enter your Email">
+	<li>Age</li>
+			<input type="number" id="number" min="10" max="80" value="18" required>
+	<li>Which option best describes the Food?</li>
+
+  <select>
+    <option>Very Delicious</option>
+    <option>Delicious</option>
+	<option>Not Delicious</option>
+  </select>
+
+
+	<li>Would you reccomend this restaurant?</li>
+		<label class="container1"><p class="checkbox">Yes</p>
+		<input type="radio" name="radio">
+		<span class="checkmark"></span>
+		</label>
+		<label class="container1"><p class="checkbox">No</p>
+		<input type="radio" name="radio">
+		<span class="checkmark"></span>
+		</label>
+	<li>What would you like to improve? (Choose Any)</li>
+		<label class="container"><p class="checkbox">Food</p>
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label>
+		<label class="container"><p class="checkbox">Ambiance</p>
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label>
+		<label class="container"><p class="checkbox">Customer service</p>
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label>
+		<label class="container"><p class="checkbox">Price</p>
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label>
+		<label class="container"><p class="checkbox">Place</p>
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label>
+		
+	<li>Any comments or suggestions?</li>
+			<textarea type="comment" id="subject" placeholder="Enter your comment here.."></textarea>
+	</form>
+</ul>
+<button class="button">Submit</button>
+</div>
+
+</body>
+</html>
